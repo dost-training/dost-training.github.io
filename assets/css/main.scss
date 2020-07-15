@@ -1,0 +1,19 @@
+---
+---
+
+$fa-font-path: '/assets/fonts';
+@import "fontawesome/fontawesome";
+@import "fontawesome/brands";
+@import "fontawesome/solid";
+
+@font-face {
+  font-family: 'paralucent';
+  src: url('/assets/fonts/Paralucent W00 Medium.ttf');
+  font-display: swap;
+}
+
+$family-primary: 'paralucent';
+$primary: #009de0;
+@import "bulma/bulma";
+
+@import "dost-training";
