@@ -1,8 +1,10 @@
 # Site settings
 url: "dost-training.github.io"
 baseurl: "/"
-title: "Dost Training School"
+title: "Dost Training Center"
 description: "Wind Energy and Industrial Rope Access Training and Certification"
+
+organisation: "Dost Training Center"
 
 # Build settings
 markdown: kramdown

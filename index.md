@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: content
 ---
 
 ## Welcome to Dost Training Center
