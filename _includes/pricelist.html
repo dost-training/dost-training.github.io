@@ -1,0 +1,45 @@
+<section id="prices">
+    <div class="container">
+        <div class="content mt-6">
+            <h2>Prices</h2>
+            <h3>IRATA Courses</h3>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">Course</th>
+                    <th scope="col">Duration (Days)</th>
+                    <th scope="col">Price</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for course in site.data.courses.irata %}
+                <tr>
+                    <td scope="row">{{ course.name }}</td>
+                    <td>{{ course.duration }}</td>
+                    <td>{{ course.price }} €</td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+            <h3>GWO Courses</h3>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">Course</th>
+                    <th scope="col">Duration (Days)</th>
+                    <th scope="col">Price</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for course in site.data.courses.gwo %}
+                <tr>
+                    <td scope="row">{{ course.name }}</td>
+                    <td>{{ course.duration }}</td>
+                    <td>{{ course.price }} €</td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>

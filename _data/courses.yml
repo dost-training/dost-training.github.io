@@ -1,0 +1,89 @@
+irata:
+  - name: IRATA Level 1 Rope Access
+    price: 1095
+    duration: 5
+
+  - name: IRATA Level 2 Rope Access
+    price: 1095
+    duration: 5
+
+  - name: IRATA Level 3 Rope Access
+    price: 1095
+    duration: 5
+
+  - name: IRATA Level 1 Rope Access Refresh (6-12 Months)
+    price: 150
+    duration: 0.5
+
+  - name: IRATA Level 1 Rope Access Refresh (12+ Months)
+    price: 250
+    duration: 1
+
+  - name: IRATA Level 2 Rope Access Refresh
+    price: 250
+    duration: 1
+
+  - name: IRATA Level 3 Rope Access Refresh
+    price: 250
+    duration: 1
+
+  - name: IRATA Rope Access Practise day
+    price: 75
+    duration: 1
+
+gwo:
+  - name: GWO BST First Aid
+    price: 240
+    duration: 2
+
+  - name: GWO BST Manual Handling
+    price: 130
+    duration: 0.5
+
+  - name: GWO BST Fire Awareness
+    price: 240
+    duration: 0.5
+
+  - name: GWO BST Working at Heights
+    price: 480
+    duration: 2
+
+  - name: GWO BST Working at Heights + Manual Handling
+    price: 610
+    duration: 2
+
+  - name: GWO BST Sea Survival
+    price: 590
+    duration: 1
+
+  - name: GWO BSTR First Aid Refresher
+    price: 160
+    duration: 1
+
+  - name: GWO BSTR Manual Handling Refresher
+    price: 130
+    duration: 0.5
+
+  - name: GWO BSTR Fire Awareness Refresher
+    price: 240
+    duration: 0.5
+
+  - name: GWO BSTR Working at Heights Refresher
+    price: 330
+    duration: 1
+
+  - name: GWO BSTR Working at Heights + Manual Handling Refresher
+    price: 460
+    duration: 1
+
+  - name: GWO BSTR Sea Survival Refresher
+    price: 590
+    duration: 1
+
+  - name: GWO EFA Enhanced First Aid
+    price: 620
+    duration: 1
+
+  - name: GWO EFAR Enhanced First Aid Refresher
+    price: 460
+    duration: 1
