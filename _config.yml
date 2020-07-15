@@ -1,1 +1,16 @@
 theme: jekyll-theme-cayman
+
+# Site settings
+url: "dost-training.github.io"
+baseurl: "/"
+title: "Dost Training School"
+description: "Wind Energy and Industrial Rope Access Training and Certification"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+sass:
+  style: compressed
+
+#host: localhost
