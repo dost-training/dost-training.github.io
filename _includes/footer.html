@@ -1,7 +1,40 @@
-<footer class="footer">
+<footer class="footer has-background-light">
     <div class="container">
-        <div class="content">
-            <p>{{ site.organisation }} {{ site.time | date: '%Y' }}</p>
+        <div class="columns">
+            <div class="column is-half">
+                <h5 class="title is-5">{{ site.organisation }}</h5>
+                <ul class="list-unstyled">
+                    <li><i class="fas fa-map-marked-alt"></i> <a href="{{ site.maps_link_classroom }}">{{
+                        site.organisation_address_classroom }}</a> (Classroom & Office)
+                    </li>
+                    <li><i class="fas fa-map-marked-alt"></i> <a href="{{ site.maps_link_facility}}">{{
+                        site.organisation_address_facility }}</a> (Practical Facility)
+                    </li>
+                    <li><i class="fas fa-phone"></i> <a
+                            href="tel:{{ site.organisation_phone | remove: ' ' | remove: '-' }}">{{
+                        site.organisation_phone }}</a></li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:{{ site.organisation_email_gwo }}">{{
+                        site.organisation_email_gwo }}</a></li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:{{ site.organisation_email_irata }}">{{
+                        site.organisation_email_irata }}</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <div class="image is-4by3">
+                    <iframe class="has-ratio map-frame" src="{{ site.maps_embed_classroom}}" allowfullscreen=""
+                            aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+            <div class="column">
+                <div class="image is-4by3">
+                    <iframe class="has-ratio map-frame" src="{{ site.maps_embed_facility }}" allowfullscreen=""
+                            aria-hidden="false" tabindex="0"></iframe>
+
+                </div>
+            </div>
         </div>
+    </div>
+    <div class="content has-text-centered mt-6">
+        <p>{{ site.organisation }} {{ site.time | date: '%Y' }}</p>
     </div>
 </footer>

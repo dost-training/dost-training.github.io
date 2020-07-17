@@ -48,7 +48,7 @@ gwo:
     price: 480
     duration: 2
 
-  - name: GWO BST Working at Heights + Manual Handling
+  - name: GWO BST Working at Heights with Manual Handling
     price: 610
     duration: 2
 
@@ -72,7 +72,7 @@ gwo:
     price: 330
     duration: 1
 
-  - name: GWO BSTR Working at Heights + Manual Handling Refresher
+  - name: GWO BSTR Working at Heights with Manual Handling Refresher
     price: 460
     duration: 1
 

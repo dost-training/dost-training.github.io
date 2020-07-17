@@ -1,42 +1,46 @@
-<section id="prices">
+<section class="section" id="prices">
     <div class="container">
-        <div class="content mt-6">
+        <div class="content">
             <h2>Courses & Training</h2>
-            <h3>IRATA Courses</h3>
-            <table class="table">
-                <thead>
-                <tr>
-                    <th scope="col">Course</th>
-                    <th scope="col">Duration (Days)</th>
-                    <th scope="col">Price</th>
-                </tr>
-                </thead>
-                <tbody>
-                {% for course in site.data.courses.irata %}
-                <tr>
-                    <td scope="row">{{ course.name }}</td>
-                    <td>{{ course.duration }}</td>
-                    <td>{{ course.price }} €</td>
-                </tr>
-                {% endfor %}
-                </tbody>
-            </table>
             <h3>GWO Courses</h3>
             <table class="table">
                 <thead>
-                <tr>
-                    <th scope="col">Course</th>
-                    <th scope="col">Duration (Days)</th>
-                    <th scope="col">Price</th>
-                </tr>
+                    <tr>
+                        <th scope="col">Course</th>
+                        <th scope="col">Duration</th>
+                        <th scope="col">Price</th>
+                    </tr>
                 </thead>
                 <tbody>
-                {% for course in site.data.courses.gwo %}
-                <tr>
-                    <td scope="row">{{ course.name }}</td>
-                    <td>{{ course.duration }}</td>
-                    <td>{{ course.price }} €</td>
-                </tr>
+                {% for course in site.courses %}
+                {% if course.body == "gwo" %}
+                    <tr>
+                        <td scope="row">{{ course.name }}</td>
+                        <td>{{ course.duration }} {% if course.duration == 1 %}day{% else %}days{% endif %}</td>
+                        <td>{{ course.price }} €</td>
+                    </tr>
+                {% endif %}
+                {% endfor %}
+                </tbody>
+            </table>
+            <h3>IRATA Courses</h3>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Course</th>
+                        <th scope="col">Duration)</th>
+                        <th scope="col">Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                {% for course in site.courses %}
+                {% if course.body == "irata" %}
+                    <tr>
+                        <td scope="row">{{ course.name }}</td>
+                        <td>{{ course.duration }} {% if course.duration == 1 %}day{% else %}days{% endif %}</td>
+                        <td>{{ course.price }} €</td>
+                    </tr>
+                {% endif %}
                 {% endfor %}
                 </tbody>
             </table>

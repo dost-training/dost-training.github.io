@@ -17,30 +17,18 @@
 
             </div>
             <div class="navbar-end">
-                <a class="navbar-item" href="{{ '/' | relative_url }}">
-                    Home
-                </a>
-                <div class="navbar-item has-dropdown">
-                    <a class="navbar-link">
-                        Courses
-                    </a>
+                <a class="navbar-item" href="{{ '/' | relative_url }}">Home</a>
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link" href="{{ '/courses' | relative_url }}">Courses</a>
                     <div class="navbar-dropdown">
-                        <a class="navbar-item">
-                            GWO
-                        </a>
-                        <a class="navbar-item">
-                            IRATA
-                        </a>
+                        <a class="navbar-item" href="{{ '/courses/gwo' | relative_url }}">GWO</a>
+                        <a class="navbar-item" href="{{ '/courses/irata' | relative_url }}">IRATA</a>
                     </div>
                 </div>
                 <div class="navbar-item">
-                    <a class="button is-primary"href="{{ '/booking' | relative_url }}">
-                        Training Calendar & Book Online
-                    </a>
+                    <a class="button is-primary" href="{{ '/booking' | relative_url }}">Training Calendar & Book Online</a>
                 </div>
-                <a class="navbar-item">
-                    About
-                </a>
+                <a class="navbar-item" href="{{ '/about' | relative_url }}">About</a>
             </div>
         </div>
     </div>

@@ -1,0 +1,30 @@
+---
+layout: base
+---
+<section class="hero is-primary is-bold">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">
+                {{ page.name }}
+            </h1>
+            <h2 class="subtitle">
+                {{ page.code }}
+            </h2>
+        </div>
+    </div>
+</section>
+<section class="section">
+    <div class="container">
+        <div class="content">
+            <h2>{{ page.name }}</h2>
+            <h3>Code</h3>
+            <p>{{ page.code }}</p>
+            <h3>Price</h3>
+            <p>{{ page.price }} €</p>
+            <h3>Duration</h3>
+            <p>{{ page.duration }} {% if page.duration == 1 %}day{% else %}days{% endif %}</p>
+            <h3>Objectives</h3>
+            {{ content }}
+        </div>
+    </div>
+</section>

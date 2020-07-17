@@ -1,11 +1,33 @@
 # Site settings
 url: "dost-training.github.io"
 baseurl: "/"
-title: "Dost Wind Training Center"
+title: "Dost Training"
 description: "Wind Energy and Industrial Rope Access Training and Certification"
+keywords: "Training, GWO, IRATA, Wind"
 
-organisation: "Dost Wind Training Center"
-address: "Westerweide 27, 58456 Witten, Germany"
+organisation: "Dost Training Center"
+organisation_address_classroom: "Wullener Feld 61, 58454 Witten, Germany"
+organisation_address_facility: "Westerweide 27, 58456 Witten, Germany"
+organisation_email_gwo: "training.gwo@dostgroup.de"
+organisation_email_irata: "training.irata@dostgroup.de"
+organisation_phone: "+49 2302 282361 - 0"
+
+maps_link_classroom: "https://goo.gl/maps/g1NmMiSCfFRtmr538"
+maps_embed_classroom: "https://maps.google.com/maps?&hl=en&q=Wullener%20Feld%2061,%2058454%20Witten,%20Germany+(Dost%20Group%20Offices)&t=&z=15&ie=UTF8&iwloc=B&output=embed"
+
+maps_link_facility: "https://goo.gl/maps/ZB33eSXNRrRtHdZx6"
+maps_embed_facility: "https://maps.google.com/maps?hl=en&q=Westerweide%2027,%2058456%20Witten,%20Germany+(Dost%20Group%20Facility)&t=&z=15&ie=UTF8&iwloc=B&output=embed"
+
+collections:
+  courses:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "courses"
+    values:
+      layout: "course"
 
 # Build settings
 markdown: kramdown

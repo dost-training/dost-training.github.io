@@ -1,19 +1,26 @@
-<section id="location">
+<section class="section" id="location">
     <div class="container">
-        <div class="content mt-6">
+        <div class="content">
             <h2>Location</h2>
-            <p>{{ site.address }}</p>
-
             <div class="columns">
-                <div class="column is-half">
+                <div class="column">
+                    <h3>Classroom & Office</h3>
+                    <p><i class="fas fa-map-marked-alt"></i> <a href="{{ site.maps_link_classroom }}">{{
+                        site.organisation_address_classroom }}</a></p>
                     <div class="image is-4by3">
-                        <iframe class="has-ratio map-frame"
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d363.1143286428335!2d7.267514582931067!3d51.409230101963644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b920fbb6f86b87%3A0x484cfc122588cf6b!2sWesterweide%2027%2C%2058456%20Witten%2C%20Germany!5e1!3m2!1sen!2suk!4v1594823522607!5m2!1sen!2suk"
-                                allowfullscreen="" aria-hidden="false"
-                                tabindex="0"></iframe>
+                        <iframe class="has-ratio map-frame" src="{{ site.maps_embed_classroom }}" allowfullscreen=""
+                                aria-hidden="false" tabindex="0"></iframe>
                     </div>
                 </div>
-                <div class="column "></div>
+                <div class="column ">
+                    <h3>Practical Facility</h3>
+                    <p><i class="fas fa-map-marked-alt"></i> <a href="{{ site.maps_link_facility}}">{{
+                        site.organisation_address_facility }}</a></p>
+                    <div class="image is-4by3">
+                        <iframe class="has-ratio map-frame" src="{{ site.maps_embed_facility }}" allowfullscreen=""
+                                aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
