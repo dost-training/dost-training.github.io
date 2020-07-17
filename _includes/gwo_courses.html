@@ -5,7 +5,7 @@
             {% for course in site.courses %}
             {% if course.body == "gwo" %}
             <div class="column is-half">
-                {% include course_card.html name=course.name code=course.code url=course.url %}
+                {% include course_card.html name=course.name code=course.code url=course.url icon_url="/assets/img/gwo-logo.png" %}
             </div>
             {% endif %}
             {% endfor %}

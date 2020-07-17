@@ -1,9 +1,19 @@
 <div class="card is-fullheight">
     <div class="card-content">
-        <p class="title is-4">{{include.name}}</p>
-        <p class="subtitle is-6">{{include.code}}</p>
+        <div class="media">
+            <div class="media-left">
+                <figure class="image">
+                    <img style="height:64px; width:auto;" src="{{ include.icon_url | relative_url }}">
+                </figure>
+            </div>
+            <div class="media-content">
+                <p class="title is-4">{{include.name}}</p>
+                <p class="subtitle is-6">{{include.code}}</p>
+            </div>
+        </div>
     </div>
     <footer class="card-footer">
         <a class="card-footer-item" href="{{ include.url }}">Details</a>
     </footer>
 </div>
+
