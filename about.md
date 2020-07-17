@@ -1,5 +1,6 @@
 ---
 layout: content
+title: About
 hero_title: About us
 hero_subtitle: Learn about the training center
 ---
