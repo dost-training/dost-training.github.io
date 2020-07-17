@@ -5,15 +5,7 @@
             {% for course in site.courses %}
             {% if course.body == "gwo" %}
             <div class="column is-half">
-                <div class="card">
-                    <div class="card-content">
-                        <p class="title is-4">{{course.name}}</p>
-                        <p class="subtitle is-6">{{course.code}}</p>
-                    </div>
-                    <footer class="card-footer">
-                        <a class="card-footer-item" href="{{ course.url }}">Details</a>
-                    </footer>
-                </div>
+                {% include course_card.html name=course.name code=course.code url=course.url %}
             </div>
             {% endif %}
             {% endfor %}
