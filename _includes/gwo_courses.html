@@ -1,14 +1,17 @@
 <section class="section" id="gwo_courses">
-    <div class="content">
-        <h2>GWO Courses</h2>
-        <div class="columns is-multiline">
-            {% for course in site.courses %}
-            {% if course.body == "gwo" %}
-            <div class="column is-half">
-                {% include course_card.html name=course.name code=course.code url=course.url icon_url="/assets/img/gwo-logo.png" %}
+    <div class="container">
+        <div class="content">
+            <h2>GWO Courses</h2>
+            <div class="columns is-multiline">
+                {% for course in site.courses %}
+                {% if course.body == "gwo" %}
+                <div class="column is-half">
+                    {% include course_card.html name=course.name code=course.code url=course.url
+                    icon_url="/assets/img/gwo-logo.png" %}
+                </div>
+                {% endif %}
+                {% endfor %}
             </div>
-            {% endif %}
-            {% endfor %}
         </div>
     </div>
 </section>

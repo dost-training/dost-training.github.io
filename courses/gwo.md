@@ -1,5 +1,5 @@
 ---
-layout: content
+layout: default
 hero_title: GWO Courses
 hero_subtitle: Global Wind Organisation
 ---
