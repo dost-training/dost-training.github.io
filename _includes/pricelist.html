@@ -15,7 +15,7 @@
                 {% for course in site.courses %}
                 {% if course.body == "gwo" %}
                     <tr>
-                        <td scope="row">{{ course.name }}</td>
+                        <td scope="row"><a href="{{course.url}}">{{ course.name }}</a></td>
                         <td>{{ course.duration }} {% if course.duration == 1 %}day{% else %}days{% endif %}</td>
                         <td>{{ course.price }} €</td>
                     </tr>
@@ -36,7 +36,7 @@
                 {% for course in site.courses %}
                 {% if course.body == "irata" %}
                     <tr>
-                        <td scope="row">{{ course.name }}</td>
+                        <td scope="row"><a href="{{course.url}}">{{ course.name }}</a></td>
                         <td>{{ course.duration }} {% if course.duration == 1 %}day{% else %}days{% endif %}</td>
                         <td>{{ course.price }} €</td>
                     </tr>
