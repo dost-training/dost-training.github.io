@@ -1,8 +1,8 @@
 <footer class="footer has-background-light">
     <div class="container">
         <div class="columns">
-            <div class="column is-half">
-                <h5 class="title is-5">{{ site.organisation }}</h5>
+            <div class="column">
+                <h5 class="title is-5 mb-3">{{ site.organisation }}</h5>
                 <ul class="list-unstyled">
                     <li><i class="fas fa-map-marked-alt"></i> <a href="{{ site.maps_link_classroom }}">{{
                         site.organisation_address_classroom }}</a> (Classroom & Office)
@@ -31,6 +31,19 @@
                             aria-hidden="false" tabindex="0"></iframe>
 
                 </div>
+            </div>
+            <div class="column">
+                <h5 class="title is-5 mb-3">Navigation</h5>
+                <ul class="list-unstyled">
+                    <li><a href="{{ '/' | relative_url }}">Home</a>
+                    <li><a href="{{ '/courses' | relative_url }}">Courses</a></li>
+                    <li><a href="{{ '/prices' | relative_url }}">Prices</a></li>
+                    <li><a href="{{ '/booking' | relative_url }}">Booking</a></li>
+                    <li><a href="{{ '/about' | relative_url }}">About</a></li>
+                    <li><a href="{{ '/termsandconditions' | relative_url }}">Terms & Conditions</a></li>
+                    <li><a href="{{ '/privacypolicy' | relative_url }}">Privacy Policy</a></li>
+                    <li><a href="{{ '/impressum' | relative_url }}">Impressum</a></li>
+                </ul>
             </div>
         </div>
     </div>
