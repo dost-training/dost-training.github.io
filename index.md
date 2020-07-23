@@ -7,5 +7,3 @@ hero_subtitle: We offer a selection of IRATA and GWO training at our training ce
 {% include home.html %}
 {% include booking.html %}
 {% include bodies.html %}
-{% include booking.html %}
-{% include location.html %}
