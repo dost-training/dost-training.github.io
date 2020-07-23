@@ -1,6 +1,6 @@
 ---
-name: GWO BST Working at Heights
-code: GWO_BST_WAH
+name: GWO BSTR Working at Heights Refresher
+code: GWO_BSTR_WAHR
 body: gwo
 price: 330
 duration: 1
