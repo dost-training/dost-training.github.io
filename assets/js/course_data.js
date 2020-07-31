@@ -1,10 +1,10 @@
 ---
----;
+---
 
-var courses = [{%; for course in site.courses %}{
-    "{{course.code}}",
-    name;: "{{course.name}}",
-    months_valid;: "{{course.months_valid}}",
+var courses = [{% for course in site.courses %}{
+    code: "{{course.code}}",
+    name: "{{course.name}}",
+    months_valid: "{{course.months_valid}}",
 },{% endfor %}]
 
 function getCourseByName(name) {
