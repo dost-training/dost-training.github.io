@@ -1,8 +1,4 @@
 ---
----;
+---
 
-var public_keys = {;
-{
-    site.data.public_keys | jsonify
-}
-}
+var public_keys = {{ site.data.public_keys | jsonify }}
