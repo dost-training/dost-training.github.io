@@ -7,11 +7,11 @@ hero_subtitle: Learn about the training center
 
 ## History
 
-Dost has 100 years experience in the operation of offshore windfarms
+Dost has many years experience in wind energy and offshore industry
 
 ## Facilities
 
-Our facilities are world class
+Our classroom and facility comply with all relevant training standards
 
 ## The Team
 

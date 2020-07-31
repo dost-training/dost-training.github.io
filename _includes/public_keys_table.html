@@ -1,0 +1,21 @@
+<h2>Dost Public Keys</h2>
+<table class="table">
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">Key</th>
+            <th scope="col">Start Date</th>
+            <th scope="col">End Date</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for key in site.data.public_keys %}
+        <tr>
+            <td scope="row">{{ key.hex_string }}</td>
+            <td>{{ key.issue_timestamp }}</td>
+            <td>{{ key.expiry_timestamp }}</td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</table>
