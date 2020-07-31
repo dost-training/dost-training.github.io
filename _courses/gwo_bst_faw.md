@@ -4,12 +4,9 @@ code: GWO_BST_FAW
 body: gwo
 price: 240
 duration: 0.5
+months_valid: 24
 ---
 
-The objectives of the BST Fire Awareness Module are to ensure that:
+The aim of this course is to give the delegates the basic knowledge and skills through theoretical and practical training.
 
-- The delegates are able to demonstrate knowledge of the development and spread of fire.
-- The delegates are able to demonstrate knowledge of the causes of fires in wind turbines and the dangers related to this.
-- The delegates are able to identify any sign of a fire in a wind turbine environment.
-- The delegates are able to demonstrate knowledge of the contingency plans in a wind turbine environment including smoke detection and emergency escape procedures.
-- The delegates are able to demonstrate correct actions on discovering a fire including correct operation and fire extinguishing by means of the firefighting equipment in a WTG.
+Delegates should be able to prevent fires, make appropriate judgements when evaluating a fire, manage evacuation of personnel and ensure all are safely accounted for in the event of an unmanageable fire. If the incident is judged to be safe, the delegates should be able to efficiently extinguish an initial fire by using basic hand held firefighting equipment.

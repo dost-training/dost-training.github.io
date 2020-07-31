@@ -16,13 +16,26 @@ layout: base
 <section class="section">
     <div class="container">
         <div class="content">
+            <!--{% if page.body == "gwo" %}-->
+            <!--<img class="is-inline-block" style="height:3cm; width:auto;" src="{{ '/assets/img/gwo-logo-borderless.svg' | relative_url }}" alt="GWO Logo">-->
+            <!--{% elsif page.body == "irata" %}-->
+            <!--<img class="is-inline-block" style="height:3cm; width:auto;" src="{{ '/assets/img/irata-logo-borderless.svg' | relative_url }}" alt="IRATA Logo">-->
+            <!--{% endif %}-->
             <h2>{{ page.name }}</h2>
-            <h3>Code</h3>
-            <p>{{ page.code }}</p>
-            <h3>Price</h3>
-            <p>{{ page.price }} €</p>
-            <h3>Duration</h3>
-            <p>{{ page.duration }} {% if page.duration == 1 %}day{% else %}days{% endif %}</p>
+            <div class="columns">
+                <div class="column">
+                    <h3>Code</h3>
+                    <p>{{ page.code }}</p>
+                </div>
+                <div class="column">
+                    <h3>Price</h3>
+                    <p>{{ page.price }} €</p>
+                </div>
+                <div class="column">
+                    <h3>Duration</h3>
+                    <p>{{ page.duration }} {% if page.duration == 1 %}day{% else %}days{% endif %}</p>
+                </div>
+            </div>
             <h3>Details</h3>
             {{ content }}
         </div>
