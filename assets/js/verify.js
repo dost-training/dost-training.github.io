@@ -23,7 +23,7 @@ function verify_url() {
     var course = getCourseByCode($("ex_course_code").value);
 
     var issue_date = new Date(data_array[0]);
-    var expiry_date = new Date(issue_date).addMonths(course.months_valid);
+    var expiry_date = new Date(issue_date).addMonths(parseInt(course.months_valid));
 
 
     $("com_course_name").value = course.name;
