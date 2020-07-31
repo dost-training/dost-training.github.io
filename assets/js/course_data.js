@@ -2,14 +2,14 @@
 ---;
 
 var courses = [{%; for course in site.courses %}{
-        "{{course.code }}",
-        name;: "{{course.name }}",
-        months_valid;: "{{course.months_valid }}",
-    },{% endfor %}]
+    "{{course.code}}",
+    name;: "{{course.name}}",
+    months_valid;: "{{course.months_valid}}",
+},{% endfor %}]
 
 function getCourseByName(name) {
     var course = {};
-    courses.forEach(function(item, index, array) {
+    courses.forEach((item, index, array) => {
         if (item['name'] == name) {
             course = item;
         }
@@ -19,7 +19,7 @@ function getCourseByName(name) {
 
 function getCourseByCode(code) {
     var course = {};
-    courses.forEach(function(item, index, array) {
+    courses.forEach((item, index, array) => {
         if (item['code'] == code) {
             course = item;
         }
