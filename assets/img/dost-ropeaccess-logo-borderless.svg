@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="256"
+   height="160"
+   viewBox="0 0 67.733339 42.333332"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="dost-ropeaccess-logo-borderless.svg">
+  <defs
+     id="defs2">
+    <rect
+       x="-20.264285"
+       y="18.539875"
+       width="188.9881"
+       height="84.28869"
+       id="rect839" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="181.4233"
+     inkscape:cy="75.970162"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:document-rotation="0"
+     units="px" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-33.030358,-40.084518)">
+    <g
+       id="g845"
+       transform="matrix(0.26926702,0,0,0.26926702,57.2684,23.02588)">
+      <path
+         sodipodi:nodetypes="cscsc"
+         inkscape:connector-curvature="0"
+         id="path826"
+         d="m 58.063235,135.73779 c 43.747475,-11.35688 71.450255,-35.951988 71.439425,-47.739188 -0.008,-8.440326 -13.38661,-9.460476 -27.73257,-5.783573 11.95821,0.214567 18.1026,1.378137 18.21965,7.828532 0.17467,9.625287 -23.216718,30.362729 -61.926505,45.694229 z"
+         style="fill:#009de0;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cscsc"
+         inkscape:connector-curvature="0"
+         id="path826-5"
+         d="m 101.43447,129.86188 c 25.07705,-7.05287 39.88774,-21.73577 39.88123,-28.8107 -0.004,-5.06609 -7.1262,-6.469449 -15.31175,-4.073494 6.742,0.621766 9.67842,1.193715 9.74868,5.065384 0.10482,5.77732 -13.10936,17.37808 -34.31816,27.81881 z"
+         style="fill:#009de0;fill-opacity:1;stroke:none;stroke-width:0.158809px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:8.27126px;line-height:1;font-family:ParalucentW00-Medium;-inkscape-font-specification:ParalucentW00-Medium;text-align:start;text-anchor:start;fill:#009de0;fill-opacity:1;stroke-width:0.206782"
+       x="34.825363"
+       y="57.104603"
+       id="text835"><tspan
+         sodipodi:role="line"
+         id="tspan833"
+         x="34.825363"
+         y="57.104603"
+         style="font-size:17.6389px;text-align:start;text-anchor:start;fill:#009de0;fill-opacity:1;stroke-width:0.206782">Dost</tspan><tspan
+         sodipodi:role="line"
+         x="34.825363"
+         y="67.505234"
+         style="font-size:6.35px;text-align:start;text-anchor:start;fill:#009de0;fill-opacity:1;stroke-width:0.206782"
+         id="tspan837">Industrial Rope Access</tspan><tspan
+         sodipodi:role="line"
+         x="34.825363"
+         y="75.776497"
+         style="font-size:4.23333px;text-align:start;text-anchor:start;fill:#009de0;fill-opacity:1;stroke-width:0.206782"
+         id="tspan839">Training Course</tspan></text>
+    <text
+       xml:space="preserve"
+       id="text837"
+       style="line-height:1.25;font-family:ParalucentW00-Medium;font-size:10.58333333px;-inkscape-font-specification:ParalucentW00-Medium;white-space:pre;shape-inside:url(#rect839);" />
+  </g>
+</svg>
