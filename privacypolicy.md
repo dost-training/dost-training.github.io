@@ -15,4 +15,4 @@ The data we store is only what is necessary in accordance with GWO and IRATA req
 
 We do not share your data with 3rd parties other than GWO and IRATA.
 
-You may contact us for requests relating TO GDPR at any time.
+You may contact us for requests relating to GDPR at any time.
