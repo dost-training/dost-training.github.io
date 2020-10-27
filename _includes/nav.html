@@ -1,8 +1,8 @@
 <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="container">
         <div class="navbar-brand">
-            <a class="navbar-item" href="{{ '/' | relative_url }}">
-                <img src="{{ 'assets/img/dost-logo-bold-borderless.svg' | relative_url }}" alt="Logo">
+            <a class="navbar-item" href="{{ '/' | prepend: site.baseurl }}">
+                <img src="{{ '/assets/img/dost-logo-bold-borderless.svg' | baseurl_root }}" alt="Logo">
                 <span id="navbar-logo-text">{{ site.organisation }}</span>
             </a>
 
@@ -17,21 +17,28 @@
 
             </div>
             <div class="navbar-end">
-                <a class="navbar-item" href="{{ '/' | relative_url }}">Home</a>
+                <a class="navbar-item" href="{{ '/' | prepend: site.baseurl }}">{% t pages.home %}</a>
                 <div class="navbar-item has-dropdown is-hoverable">
-                    <a class="navbar-link" href="{{ '/courses' | relative_url }}">Courses</a>
+                    <a class="navbar-link" href="{{ '/courses' | prepend: site.baseurl }}">{% t pages.courses %}</a>
                     <div class="navbar-dropdown">
-                        <a class="navbar-item" href="{{ '/courses/gwo' | relative_url }}">GWO</a>
-                        <a class="navbar-item" href="{{ '/courses/irata' | relative_url }}">IRATA</a>
-                        <a class="navbar-item" href="{{ '/courses/dguv' | relative_url }}">DGUV</a>
+                        <a class="navbar-item" href="{{ '/courses/gwo' | prepend: site.baseurl }}">GWO</a>
+                        <a class="navbar-item" href="{{ '/courses/irata' | prepend: site.baseurl }}">IRATA</a>
+                        <a class="navbar-item" href="{{ '/courses/dguv' | prepend: site.baseurl }}">DGUV</a>
                     </div>
                 </div>
-                <a class="navbar-item" href="{{ '/prices' | relative_url }}">Prices</a>
+                <a class="navbar-item" href="{{ '/prices' | prepend: site.baseurl }}">{% t pages.prices %}</a>
                 <div class="navbar-item">
-                    <a class="button is-primary" href="{{ '/booking' | relative_url }}">Training Calendar & Book Online</a>
+                    <a class="button is-primary" href="{{ '/booking' | prepend: site.baseurl }}">{% t booking.button_text %}</a>
                 </div>
-                <a class="navbar-item" href="{{ '/verification' | relative_url }}">Verification</a>
-                <a class="navbar-item" href="{{ '/about' | relative_url }}">About</a>
+                <a class="navbar-item" href="{{ '/verification' | prepend: site.baseurl }}">{% t pages.verification %}</a>
+                <a class="navbar-item" href="{{ '/about' | prepend: site.baseurl }}">{% t pages.about %}</a>
+
+                {% if site.lang == "en" %}
+                <a  class="navbar-item" href="{{ '/de' | baseurl_root | append: page.url }}"><img style="width: 22px;" src="{{ '/assets/img/flags/de.svg' | baseurl_root }}" alt="DE Flag"></a>
+                {% elsif site.lang == "de" %}
+                <a  class="navbar-item" href="{{ '' | baseurl_root | append: page.url }}"><img style="width: 22px;" src="{{ '/assets/img/flags/gb.svg' | baseurl_root }}" alt="GB Flag"></a>
+                {% endif %}
+
             </div>
         </div>
     </div>

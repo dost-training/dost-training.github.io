@@ -1,0 +1,18 @@
+global:
+  office: Office
+  training_center: Training Center
+pages:
+  home: Home
+  courses: Courses
+  prices: Prices
+  booking: Booking
+  verification: Verification
+  about: About
+  terms: Terms & Conditions
+  privacy: Privacy Policy
+  impressum: Impressum
+courses:
+  training_bodies: Training Bodies
+  browse_courses: Browse Courses
+booking:
+  button_text: Training Calendar & Book Online

@@ -1,4 +1,5 @@
 ---
+languages: ["en"]
 ---
 
 $fa-font-path: '/assets/fonts';
@@ -23,7 +24,7 @@ $primary: #009de0;
 }
 
 .hero.is-primary.is-bold {
-  background: linear-gradient(141deg, rgba(#0096ad, 0.7) 0%,  rgba(#009de0, 0.7) 71%,  rgba(#0085fa, 0.7) 100%), url('/assets/img/photos/shed.jpg') no-repeat center center scroll;
+  background: linear-gradient(141deg, rgba(#0096ad, 0.7) 0%,  rgba(#009de0, 0.7) 71%,  rgba(#0085fa, 0.7) 100%), url('/assets/img/photos/tc1.jpg') no-repeat center center scroll;
   background-size: cover;
   //display: flex;
   //justify-content: center;

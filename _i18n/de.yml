@@ -1,0 +1,18 @@
+global:
+  office: Büro
+  training_center: Trainingszentrum
+pages:
+  home: Startseite
+  courses: Kurse
+  prices: Preise
+  booking: Buchung
+  verification: Überprüfung
+  about: Über uns
+  terms: Geschäftsbedingungen
+  privacy: Datenschutz
+  impressum: Impressum
+courses:
+  training_bodies: Trainingskörper
+  browse_courses: Kurse durchsuchen
+booking:
+  button_text: Schulungskalender & Online buchen
