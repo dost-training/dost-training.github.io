@@ -4,5 +4,5 @@ title: GWO
 hero_title: GWO Courses
 hero_subtitle: Global Wind Organisation
 ---
-{% include gwo_courses.html %}
+{% include courses_gwo.html %}
 
