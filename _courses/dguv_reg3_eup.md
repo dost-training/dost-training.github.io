@@ -1,4 +1,5 @@
 ---
+lang: en
 name: DGUV REG3 Elektrotechnisch unterwiesene Person
 code: DGUV_REG3_EUP
 body: dguv

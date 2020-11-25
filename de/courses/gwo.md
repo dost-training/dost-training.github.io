@@ -1,6 +1,6 @@
 ---
 layout: default
-lang: en
+lang: de
 i18n_url: courses/gwo
 title: GWO
 hero_title: GWO Courses

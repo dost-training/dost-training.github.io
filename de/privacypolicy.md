@@ -1,6 +1,6 @@
 ---
 layout: content
-lang: en
+lang: de
 i18n_url: privacypolicy
 title: Privacy Policy
 hero_title: Privacy Policy

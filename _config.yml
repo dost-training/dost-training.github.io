@@ -34,7 +34,7 @@ exclude: ["README.md"]
 
 # Multiple Languages Plugin
 languages: ["en", "de"]
-exclude_from_localizations: ["CNAME", "google677addc9844b679c.html", "robots.txt", "assets"]
+#exclude_from_localizations: ["CNAME", "google677addc9844b679c.html", "robots.txt", "assets"]
 
 
 

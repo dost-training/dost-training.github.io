@@ -1,3 +1,8 @@
+{% if page.lang == "en" %}
+{% capture i18n_link_part %}{% endcapture %}
+{% elsif page.lang == "de" %}
+{% capture i18n_link_part %}de{% endcapture %}
+{% endif %}
 <footer class="footer has-background-light">
     <div class="container">
         <div class="columns">
@@ -5,10 +10,10 @@
                 <h5 class="title is-5 mb-3">{{ site.organisation }}</h5>
                 <ul class="list-unstyled">
                     <li><i class="fas fa-map-marked-alt"></i> <a href="{{ site.maps_link_office }}">{{
-                        site.organisation_address_office }}</a> ({% t global.office %})
+                        site.organisation_address_office }}</a> ({{ site.data.i18n[page.lang].global.office }})
                     </li>
                     <li><i class="fas fa-map-marked-alt"></i> <a href="{{ site.maps_link_facility }}">{{
-                        site.organisation_address_facility }}</a> ({% t global.training_center %})
+                        site.organisation_address_facility }}</a> ({{ site.data.i18n[page.lang].global.training_center }})
                     </li>
                     <li><i class="fas fa-phone"></i> <a
                             href="tel:{{ site.organisation_phone | remove: ' ' | remove: '-' }}">{{
@@ -31,17 +36,17 @@
                 </div>
             </div>
             <div class="column">
-                <h5 class="title is-5 mb-3">Navigation</h5>
+                <h5 class="title is-5 mb-3">{{ site.data.i18n[page.lang].global.navigation }}</h5>
                 <ul class="list-unstyled">
-                    <li><a href="{{ '/' | prepend: site.baseurl }}">{% t pages.home %}</a>
-                    <li><a href="{{ '/courses' | prepend: site.baseurl }}">{% t pages.courses %}</a></li>
-                    <li><a href="{{ '/prices' | prepend: site.baseurl }}">{% t pages.prices %}</a></li>
-                    <li><a href="{{ '/booking' | prepend: site.baseurl }}">{% t pages.booking %}</a></li>
-                    <li><a href="{{ '/verification' | prepend: site.baseurl }}">{% t pages.verification %}</a></li>
-                    <li><a href="{{ '/about' | prepend: site.baseurl }}">{% t pages.about %}</a></li>
-                    <li><a href="{{ '/termsandconditions' | prepend: site.baseurl }}">{% t pages.terms %}</a></li>
-                    <li><a href="{{ '/privacypolicy' | prepend: site.baseurl }}">{% t pages.privacy %}</a></li>
-                    <li><a href="{{ '/impressum' | prepend: site.baseurl }}">{% t pages.impressum %}</a></li>
+                    <li><a href="{{ '/' | prepend: i18n_link_part  | relative_url }}">{{ site.data.i18n[page.lang].pages.home }}</a>
+                    <li><a href="{{ '/courses' | prepend: i18n_link_part  | relative_url }}">{{ site.data.i18n[page.lang].pages.courses }}</a></li>
+                    <li><a href="{{ '/prices' | prepend: i18n_link_part  | relative_url }}">{{ site.data.i18n[page.lang].pages.prices }}</a></li>
+                    <li><a href="{{ '/booking' | prepend: i18n_link_part  | relative_url }}">{{ site.data.i18n[page.lang].pages.booking }}</a></li>
+                    <li><a href="{{ '/verification' | prepend: i18n_link_part  | relative_url }}">{{ site.data.i18n[page.lang].pages.verification }}</a></li>
+                    <li><a href="{{ '/about' | prepend: i18n_link_part  | relative_url }}">{{ site.data.i18n[page.lang].pages.about }}</a></li>
+                    <li><a href="{{ '/termsandconditions' | prepend: i18n_link_part  | relative_url }}">{{ site.data.i18n[page.lang].pages.terms }}</a></li>
+                    <li><a href="{{ '/privacypolicy' | prepend: i18n_link_part  | relative_url }}">{{ site.data.i18n[page.lang].pages.privacy }}</a></li>
+                    <li><a href="{{ '/impressum' | prepend: i18n_link_part  | relative_url }}">{{ site.data.i18n[page.lang].pages.impressum }}</a></li>
                 </ul>
             </div>
         </div>

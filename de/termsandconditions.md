@@ -1,6 +1,6 @@
 ---
 layout: content
-lang: en
+lang: de
 i18n_url: termsandconditions
 title: Terms & Conditions
 hero_title: Terms & Conditions

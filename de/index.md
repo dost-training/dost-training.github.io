@@ -1,6 +1,6 @@
 ---
 layout: default
-lang: en
+lang: de
 i18n_url: 
 hero_title: Welcome to our training center
 hero_subtitle: We offer a selection of GWO and DGUV training at our training center in Dortmund, Germany

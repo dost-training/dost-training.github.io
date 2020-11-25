@@ -1,6 +1,6 @@
 ---
 layout: content
-lang: en
+lang: de
 i18n_url: about
 title: About
 hero_title: About us

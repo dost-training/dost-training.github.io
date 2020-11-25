@@ -1,6 +1,6 @@
 ---
 layout: base
-lang: en
+lang: de
 i18n_url: booking
 title: Booking
 hero_title: Online Booking Portal

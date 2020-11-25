@@ -1,4 +1,5 @@
 global:
+  navigation: Navigation
   office: Office
   training_center: Training Center
 pages:

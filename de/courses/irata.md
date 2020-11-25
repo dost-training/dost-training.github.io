@@ -1,6 +1,6 @@
 ---
 layout: default
-lang: en
+lang: de
 i18n_url: courses/irata
 title: IRATA
 hero_title: IRATA Courses

@@ -1,6 +1,6 @@
 ---
 layout: default
-lang: en
+lang: de
 i18n_url: prices
 title: Prices
 hero_title: Prices

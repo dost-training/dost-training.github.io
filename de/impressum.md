@@ -1,6 +1,6 @@
 ---
 layout: content
-lang: en
+lang: de
 i18n_url: impressum
 title: Impressum
 hero_title: Impressum

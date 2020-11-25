@@ -1,6 +1,6 @@
 ---
 layout: default
-lang: en
+lang: de
 i18n_url: courses/dguv
 title: DGUV
 hero_title: DGUV Courses

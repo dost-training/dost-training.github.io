@@ -1,6 +1,6 @@
 ---
 layout: content
-lang: en
+lang: de
 i18n_url: verification
 title: Verification
 hero_title: Verification
