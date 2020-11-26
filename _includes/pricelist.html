@@ -16,7 +16,7 @@
                 {% if course.body == "gwo" %}
                     <tr>
                         <td scope="row"><a href="{{course.url}}">{{ course.name }}</a></td>
-                        <td>{{ course.duration }} {% if course.duration == 1 %}{{ site.data.i18n[page.lang].global.day }}{% else %}{{ site.data.i18n[page.lang].global.days }}{% endif %}</td>
+                        <td>{% if course.duration == 0.5 %}½{% else %}{{ course.duration }}{% endif %} {% if course.duration <= 1 %}{{ site.data.i18n[page.lang].global.day }}{% else %}{{ site.data.i18n[page.lang].global.days }}{% endif %}</td>
                         <td>{{ course.price }} €</td>
                     </tr>
                 {% endif %}
@@ -38,7 +38,7 @@
                 {% if course.body == "irata" %}
                     <tr>
                         <td scope="row"><a href="{{course.url}}">{{ course.name }}</a></td>
-                        <td>{{ course.duration }} {% if course.duration == 1 %}{{ site.data.i18n[page.lang].global.day }}{% else %}{{ site.data.i18n[page.lang].global.days }}{% endif %}</td>
+                        <td>{% if course.duration == 0.5 %}½{% else %}{{ course.duration }}{% endif %} {% if course.duration <= 1 %}{{ site.data.i18n[page.lang].global.day }}{% else %}{{ site.data.i18n[page.lang].global.days }}{% endif %}</td>
                         <td>{{ course.price }} €</td>
                     </tr>
                 {% endif %}
@@ -59,7 +59,7 @@
                     {% if course.body == "irata" %}
                     <tr>
                         <td scope="row"><a href="{{course.url}}">{{ course.name }}</a></td>
-                        <td>{{ course.duration }} {% if course.duration == 1 %}{{ site.data.i18n[page.lang].global.day }}{% else %}{{ site.data.i18n[page.lang].global.days }}{% endif %}</td>
+                        <td>{% if course.duration == 0.5 %}½{% else %}{{ course.duration }}{% endif %} {% if course.duration <= 1 %}{{ site.data.i18n[page.lang].global.day }}{% else %}{{ site.data.i18n[page.lang].global.days }}{% endif %}</td>
                         <td>{{ course.price }} €</td>
                     </tr>
                     {% endif %}
