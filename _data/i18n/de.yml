@@ -11,6 +11,7 @@ global:
   browse_courses: Kurse durchsuchen
   day: Tag
   days: Tage
+  excl_vat: Ex MwSt
 
 pages:
   home:

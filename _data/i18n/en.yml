@@ -10,6 +10,7 @@ global:
   browse_courses: Browse Courses
   day: day
   days: days
+  excl_vat: Ex VAT
 
 pages:
   home:
