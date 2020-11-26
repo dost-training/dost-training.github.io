@@ -2,6 +2,14 @@ global:
   navigation: Navigation
   office: Office
   training_center: Training Center
+  details: Details
+  course: Course
+  duration: Duration
+  price: Price
+  training_bodies: Training Bodies
+  browse_courses: Browse Courses
+  day: day
+  days: days
 
 pages:
   home:
@@ -17,7 +25,7 @@ pages:
   prices:
     url: prices
     link: Prices
-    title: Prices
+    title: Price List
     subtitle: Excl. VAT
   booking:
     url: booking
@@ -70,10 +78,3 @@ pages:
     link: GWO Courses
     title: GWO Courses
     subtitle: Global Wind Organisation
-
-
-courses:
-  courses: Courses
-  training_bodies: Training Bodies
-  browse_courses: Browse Courses
-

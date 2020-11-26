@@ -1,4 +1,5 @@
 ---
+lang: en
 name: GWO EFA Enhanced First Aid
 code: GWO_EFA_EFA
 body: gwo

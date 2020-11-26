@@ -1,4 +1,5 @@
 ---
+lang: en
 name: GWO BSTR Working at Heights Refresher
 code: GWO_BSTR_WAHR
 body: gwo

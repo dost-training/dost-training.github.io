@@ -1,4 +1,5 @@
 ---
+lang: en
 name: IRATA RA Practise Day
 code: IRATA_RA_PD
 body: irata

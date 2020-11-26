@@ -1,4 +1,5 @@
 ---
+lang: en
 name: GWO EFAR Enhanced First Aid Refresher
 code: GWO_EFAR_EFAR
 body: gwo

@@ -1,4 +1,5 @@
 ---
+lang: en
 name: GWO BST Fire Awareness
 code: GWO_BST_FAW
 body: gwo

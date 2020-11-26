@@ -1,4 +1,5 @@
 ---
+lang: en
 name: IRATA RA Level 2 Rope Access Refresher
 code: IRATA_RA_L2RAR
 body: irata

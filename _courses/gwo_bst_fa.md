@@ -1,4 +1,5 @@
 ---
+lang: en
 name: GWO BST First Aid
 code: GWO_BST_FA
 body: gwo

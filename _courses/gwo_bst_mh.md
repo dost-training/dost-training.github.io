@@ -1,4 +1,5 @@
 ---
+lang: en
 name: GWO BST Manual Handling
 code: GWO_BST_MH
 body: gwo

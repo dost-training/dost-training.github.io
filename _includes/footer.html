@@ -1,7 +1,7 @@
 {% if page.lang == "en" %}
 {% capture i18n_link_part %}{% endcapture %}
-{% elsif page.lang == "de" %}
-{% capture i18n_link_part %}de{% endcapture %}
+{% else %}
+{% capture i18n_link_part %}{{ page.lang }}{% endcapture %}
 {% endif %}
 
 <footer class="footer has-background-light">

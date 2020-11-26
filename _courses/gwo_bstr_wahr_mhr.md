@@ -1,4 +1,5 @@
 ---
+lang: en
 name: GWO BSTR Working at Heights Refresher with Manual Handling Refresher
 code: GWO_BSTR_WAHR_MHR
 body: gwo

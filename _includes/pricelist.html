@@ -1,14 +1,14 @@
 <section class="section" id="prices">
     <div class="container">
         <div class="content">
-            <h2>Price List</h2>
-            <h3>GWO Courses</h3>
+
+            <h3>{{ site.data.i18n[page.lang].pages.gwo.title }}</h3>
             <table class="table">
                 <thead>
                     <tr>
-                        <th scope="col">Course</th>
-                        <th scope="col">Duration</th>
-                        <th scope="col">Price</th>
+                        <th scope="col">{{ site.data.i18n[page.lang].global.course }}</th>
+                        <th scope="col">{{ site.data.i18n[page.lang].global.duration }}</th>
+                        <th scope="col">{{ site.data.i18n[page.lang].global.price }}</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -16,20 +16,21 @@
                 {% if course.body == "gwo" %}
                     <tr>
                         <td scope="row"><a href="{{course.url}}">{{ course.name }}</a></td>
-                        <td>{{ course.duration }} {% if course.duration == 1 %}day{% else %}days{% endif %}</td>
+                        <td>{{ course.duration }} {% if course.duration == 1 %}{{ site.data.i18n[page.lang].global.day }}{% else %}{{ site.data.i18n[page.lang].global.days }}{% endif %}</td>
                         <td>{{ course.price }} €</td>
                     </tr>
                 {% endif %}
                 {% endfor %}
                 </tbody>
             </table>
-            <h3>Rope Access Courses</h3>
+
+            <h3>{{ site.data.i18n[page.lang].pages.irata.title }}</h3>
             <table class="table">
                 <thead>
                     <tr>
-                        <th scope="col">Course</th>
-                        <th scope="col">Duration</th>
-                        <th scope="col">Price</th>
+                        <th scope="col">{{ site.data.i18n[page.lang].global.course }}</th>
+                        <th scope="col">{{ site.data.i18n[page.lang].global.duration }}</th>
+                        <th scope="col">{{ site.data.i18n[page.lang].global.price }}</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -37,12 +38,35 @@
                 {% if course.body == "irata" %}
                     <tr>
                         <td scope="row"><a href="{{course.url}}">{{ course.name }}</a></td>
-                        <td>{{ course.duration }} {% if course.duration == 1 %}day{% else %}days{% endif %}</td>
+                        <td>{{ course.duration }} {% if course.duration == 1 %}{{ site.data.i18n[page.lang].global.day }}{% else %}{{ site.data.i18n[page.lang].global.days }}{% endif %}</td>
                         <td>{{ course.price }} €</td>
                     </tr>
                 {% endif %}
                 {% endfor %}
                 </tbody>
+
+                <h3>{{ site.data.i18n[page.lang].pages.dguv.title }}</h3>
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th scope="col">{{ site.data.i18n[page.lang].global.course }}</th>
+                        <th scope="col">{{ site.data.i18n[page.lang].global.duration }}</th>
+                        <th scope="col">{{ site.data.i18n[page.lang].global.price }}</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for course in site.courses %}
+                    {% if course.body == "irata" %}
+                    <tr>
+                        <td scope="row"><a href="{{course.url}}">{{ course.name }}</a></td>
+                        <td>{{ course.duration }} {% if course.duration == 1 %}{{ site.data.i18n[page.lang].global.day }}{% else %}{{ site.data.i18n[page.lang].global.days }}{% endif %}</td>
+                        <td>{{ course.price }} €</td>
+                    </tr>
+                    {% endif %}
+                    {% endfor %}
+                    </tbody>
+                </table>
+
             </table>
         </div>
     </div>

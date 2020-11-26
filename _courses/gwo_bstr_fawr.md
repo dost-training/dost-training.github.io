@@ -1,4 +1,5 @@
 ---
+lang: en
 name: GWO BSTR Fire Awareness Refresher
 code: GWO_BSTR_FAWR
 body: gwo

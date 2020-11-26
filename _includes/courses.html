@@ -1,7 +1,13 @@
+{% if page.lang == "en" %}
+{% capture i18n_link_part %}{% endcapture %}
+{% else %}
+{% capture i18n_link_part %}{{ page.lang }}{% endcapture %}
+{% endif %}
+
 <section class="section" id="bodies">
     <div class="container">
         <div class="content has-text-centered">
-            <h2>{{ site.data.i18n[page.lang].courses.training_bodies }}</h2>
+            <h2>{{ site.data.i18n[page.lang].global.training_bodies }}</h2>
         </div>
         <div class="columns has-text-centered">
             <div class="column is-one-third">
@@ -12,11 +18,11 @@
                         </figure>
                     </div>
                     <div class="card-content">
-                        <p class="title is-2">GWO {{ site.data.i18n[page.lang].courses.courses }}</p>
-                        <p class="subtitle is-6">Global Wind Organisation</p>
+                        <p class="title is-2">{{ site.data.i18n[page.lang].pages.gwo.title }}</p>
+                        <p class="subtitle is-6">{{ site.data.i18n[page.lang].pages.gwo.subtitle }}</p>
                     </div>
                     <footer class="card-footer">
-                        <a href="/courses/gwo" class="card-footer-item">{{ site.data.i18n[page.lang].courses.browse_courses }}</a>
+                        <a href="{{ '/courses/gwo' | prepend: i18n_link_part | relative_url }}" class="card-footer-item">{{ site.data.i18n[page.lang].global.browse_courses }}</a>
                     </footer>
                 </div>
             </div>
@@ -28,11 +34,11 @@
                         </figure>
                     </div>
                     <div class="card-content">
-                        <p class="title is-2">IRATA {{ site.data.i18n[page.lang].courses.courses }}</p>
-                        <p class="subtitle is-6">International Rope Access Trade Association</p>
+                        <p class="title is-2">{{ site.data.i18n[page.lang].pages.irata.title }}</p>
+                        <p class="subtitle is-6">{{ site.data.i18n[page.lang].pages.irata.subtitle }}</p>
                     </div>
                     <footer class="card-footer">
-                        <a href="/courses/irata" class="card-footer-item">{{ site.data.i18n[page.lang].courses.browse_courses }}</a>
+                        <a href="{{ '/courses/irata' | prepend: i18n_link_part | relative_url }}" class="card-footer-item">{{ site.data.i18n[page.lang].global.browse_courses }}</a>
                     </footer>
                 </div>
             </div>
@@ -82,11 +88,11 @@
                         </figure>
                     </div>
                     <div class="card-content">
-                        <p class="title is-2">DGUV {{ site.data.i18n[page.lang].courses.courses }}</p>
-                        <p class="subtitle is-6">Deutsche Gesetzliche Unfallversicherung</p>
+                        <p class="title is-2">{{ site.data.i18n[page.lang].pages.dguv.title }}</p>
+                        <p class="subtitle is-6">{{ site.data.i18n[page.lang].pages.dguv.subtitle }}</p>
                     </div>
                     <footer class="card-footer">
-                        <a href="/courses/dguv" class="card-footer-item">{{ site.data.i18n[page.lang].courses.browse_courses }}</a>
+                        <a href="{{ '/courses/dguv' | prepend: i18n_link_part | relative_url }}" class="card-footer-item">{{ site.data.i18n[page.lang].global.browse_courses }}</a>
                     </footer>
                 </div>
             </div>

@@ -1,4 +1,5 @@
 ---
+lang: en
 name: GWO BSTR Sea Survival Refresher
 code: GWO_BSTR_SSR
 body: gwo

@@ -1,4 +1,5 @@
 ---
+lang: en
 name: GWO BST Working at Heights with Manual Handling
 code: GWO_BST_WAH_MH
 body: gwo

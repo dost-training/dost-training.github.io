@@ -1,4 +1,5 @@
 ---
+lang: en
 name: GWO BSTR Manual Handling Refresher
 code: GWO_BSTR_MHR
 body: gwo

@@ -1,4 +1,5 @@
 ---
+lang: en
 name: GWO BST Sea Survival
 code: GWO_BST_SS
 body: gwo

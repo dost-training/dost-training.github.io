@@ -1,4 +1,5 @@
 ---
+lang: en
 name: GWO BSTR First Aid Refresher
 code: GWO_BSTR_FAR
 body: gwo
