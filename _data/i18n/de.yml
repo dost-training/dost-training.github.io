@@ -7,7 +7,7 @@ global:
   duration: Dauer
   price: Preis
   courses: Kurse
-  training_bodies: Trainingskörper
+  training_bodies: Ausbildungseinrichtungen
   browse_courses: Kurse durchsuchen
   day: Tag
   days: Tage
