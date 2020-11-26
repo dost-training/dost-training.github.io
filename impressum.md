@@ -1,10 +1,7 @@
 ---
 layout: content
 lang: en
-i18n_url: impressum
-title: Impressum
-hero_title: Impressum
-hero_subtitle: 
+i18n_id: impressum
 ---
 
 # Impressum

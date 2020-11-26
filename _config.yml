@@ -30,7 +30,10 @@ defaults:
     values:
       layout: "course"
 
-exclude: ["README.md"]
+include:
+  - _pages
+exclude:
+  - README.md
 
 # Multiple Languages Plugin
 languages: ["en", "de"]

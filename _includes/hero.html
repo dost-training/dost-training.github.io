@@ -2,10 +2,10 @@
     <div class="hero-body">
         <div class="container">
             <h1 class="title">
-                {{ page.hero_title }}
+                {{ site.data.i18n[page.lang].pages[page.i18n_id].title }}
             </h1>
             <h2 class="subtitle">
-                {{ page.hero_subtitle }}
+                {{ site.data.i18n[page.lang].pages[page.i18n_id].subtitle }}
             </h2>
         </div>
     </div>

@@ -1,10 +1,7 @@
 ---
 layout: content
 lang: en
-i18n_url: about
-title: About
-hero_title: About us
-hero_subtitle: Learn about the training center
+i18n_id: about
 ---
 
 ## History

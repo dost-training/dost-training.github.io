@@ -1,10 +1,7 @@
 ---
 layout: content
 lang: en
-i18n_url: termsandconditions
-title: Terms & Conditions
-hero_title: Terms & Conditions
-hero_subtitle: 
+i18n_id: terms
 ---
 
 # Terms & Conditions

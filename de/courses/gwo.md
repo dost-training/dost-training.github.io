@@ -1,10 +1,7 @@
 ---
 layout: default
 lang: de
-i18n_url: courses/gwo
-title: GWO
-hero_title: GWO Courses
-hero_subtitle: Global Wind Organisation
+i18n_id: gwo
 ---
 {% include courses_gwo.html %}
 

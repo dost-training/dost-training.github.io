@@ -1,10 +1,7 @@
 ---
 layout: default
 lang: en
-i18n_url: courses/dguv
-title: DGUV
-hero_title: DGUV Courses
-hero_subtitle: Deutsche Gesetzliche Unfallversicherung
+i18n_id: dguv
 ---
 {% include courses_dguv.html %}
 

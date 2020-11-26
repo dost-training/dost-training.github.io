@@ -3,6 +3,7 @@
 {% elsif page.lang == "de" %}
 {% capture i18n_link_part %}de{% endcapture %}
 {% endif %}
+
 <footer class="footer has-background-light">
     <div class="container">
         <div class="columns">
@@ -38,15 +39,15 @@
             <div class="column">
                 <h5 class="title is-5 mb-3">{{ site.data.i18n[page.lang].global.navigation }}</h5>
                 <ul class="list-unstyled">
-                    <li><a href="{{ '/' | prepend: i18n_link_part  | relative_url }}">{{ site.data.i18n[page.lang].pages.home }}</a>
-                    <li><a href="{{ '/courses' | prepend: i18n_link_part  | relative_url }}">{{ site.data.i18n[page.lang].pages.courses }}</a></li>
-                    <li><a href="{{ '/prices' | prepend: i18n_link_part  | relative_url }}">{{ site.data.i18n[page.lang].pages.prices }}</a></li>
-                    <li><a href="{{ '/booking' | prepend: i18n_link_part  | relative_url }}">{{ site.data.i18n[page.lang].pages.booking }}</a></li>
-                    <li><a href="{{ '/verification' | prepend: i18n_link_part  | relative_url }}">{{ site.data.i18n[page.lang].pages.verification }}</a></li>
-                    <li><a href="{{ '/about' | prepend: i18n_link_part  | relative_url }}">{{ site.data.i18n[page.lang].pages.about }}</a></li>
-                    <li><a href="{{ '/termsandconditions' | prepend: i18n_link_part  | relative_url }}">{{ site.data.i18n[page.lang].pages.terms }}</a></li>
-                    <li><a href="{{ '/privacypolicy' | prepend: i18n_link_part  | relative_url }}">{{ site.data.i18n[page.lang].pages.privacy }}</a></li>
-                    <li><a href="{{ '/impressum' | prepend: i18n_link_part  | relative_url }}">{{ site.data.i18n[page.lang].pages.impressum }}</a></li>
+                    <li><a href="{{ '/' | prepend: i18n_link_part  | relative_url }}">{{ site.data.i18n[page.lang].pages.home.link }}</a>
+                    <li><a href="{{ '/courses' | prepend: i18n_link_part  | relative_url }}">{{ site.data.i18n[page.lang].pages.courses.link }}</a></li>
+                    <li><a href="{{ '/prices' | prepend: i18n_link_part  | relative_url }}">{{ site.data.i18n[page.lang].pages.prices.link }}</a></li>
+                    <li><a href="{{ '/booking' | prepend: i18n_link_part  | relative_url }}">{{ site.data.i18n[page.lang].pages.booking.link }}</a></li>
+                    <li><a href="{{ '/verification' | prepend: i18n_link_part  | relative_url }}">{{ site.data.i18n[page.lang].pages.verification.link }}</a></li>
+                    <li><a href="{{ '/about' | prepend: i18n_link_part  | relative_url }}">{{ site.data.i18n[page.lang].pages.about.link }}</a></li>
+                    <li><a href="{{ '/termsandconditions' | prepend: i18n_link_part  | relative_url }}">{{ site.data.i18n[page.lang].pages.terms.link }}</a></li>
+                    <li><a href="{{ '/privacypolicy' | prepend: i18n_link_part  | relative_url }}">{{ site.data.i18n[page.lang].pages.privacy.link }}</a></li>
+                    <li><a href="{{ '/impressum' | prepend: i18n_link_part  | relative_url }}">{{ site.data.i18n[page.lang].pages.impressum.link }}</a></li>
                 </ul>
             </div>
         </div>

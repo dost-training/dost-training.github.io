@@ -1,10 +1,7 @@
 ---
 layout: content
 lang: en
-i18n_url: verification
-title: Verification
-hero_title: Verification
-hero_subtitle: How our verification works
+i18n_id: verification
 ---
 
 # Verification

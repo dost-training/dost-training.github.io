@@ -1,10 +1,7 @@
 ---
 layout: default
 lang: en
-i18n_url: courses
-title: Courses
-hero_title: Training Courses
-hero_subtitle: Wind Energy & Industrial Rope Access
+i18n_id: courses
 ---
 
-{% include bodies.html %}
+{% include courses.html %}
