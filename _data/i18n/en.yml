@@ -11,6 +11,7 @@ global:
   day: day
   days: days
   excl_vat: Excl. VAT
+  location: Location
 
 pages:
   home:
@@ -79,3 +80,14 @@ pages:
     link: GWO Courses
     title: GWO Courses
     subtitle: Global Wind Organisation
+
+home:
+  opening_soon: Opening Soon
+  opening_soon_p1: We are currently working hard to refit our equipment and facilities. We will open in Winter 2020.
+  welcome: Welcome
+  home_p1: We offer a selection of GWO, DGUV, and Rope Access training courses
+  home_p2: Training takes place at our facilites in Witten, Germany
+  home_p3: All our courses are competitively priced
+  home_p4: After completing your GWO training course your record will be uploaded to WINDA
+  home_p5: We can issue digitally signed and online verifiable certificates
+

@@ -1,7 +1,7 @@
 <section class="section" id="irata_courses">
     <div class="container">
         <div class="content">
-            <h2>IRATA Courses</h2>
+            <h2>{{ site.data.i18n[page.lang].pages.irata.title }}</h2>
             <div class="columns is-multiline">
                 {% for course in site.courses %}
                 {% if course.body == "irata" %}

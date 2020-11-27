@@ -1,7 +1,7 @@
 <section class="section" id="gwo_courses">
     <div class="container">
         <div class="content">
-            <h2>GWO Courses</h2>
+            <h2>{{ site.data.i18n[page.lang].pages.gwo.title }}</h2>
             <div class="columns is-multiline">
                 {% for course in site.courses %}
                 {% if course.body == "gwo" %}

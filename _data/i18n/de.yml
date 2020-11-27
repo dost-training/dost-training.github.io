@@ -12,6 +12,7 @@ global:
   day: Tag
   days: Tage
   excl_vat: Excl. MwSt
+  location: Ort
 
 pages:
   home:
@@ -80,3 +81,13 @@ pages:
     link: GWO Kurse
     title: GWO Kurse
     subtitle: Global Wind Organisation
+
+home:
+  opening_soon: Öffnet bald
+  opening_soon_p1: Wir arbeiten derzeit intensiv an der Umrüstung unserer Geräte und Einrichtungen. Wir werden im Winter 2020 eröffnen.
+  welcome: Herzlich willkommen
+  home_p1: Wir bieten eine Auswahl an GWO-, DGUV- und Rope Access-Schulungen an
+  home_p2: Die Schulung findet in unseren Einrichtungen in Witten statt
+  home_p3: Alle unsere Kurse sind preisgünstig
+  home_p4: Nach Abschluss Ihres GWO-Schulungskurses wird Ihre Aufzeichnung auf WINDA hochgeladen
+  home_p5: Wir können digital signierte und online überprüfbare Zertifikate ausstellen
