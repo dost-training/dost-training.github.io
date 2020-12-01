@@ -22,11 +22,19 @@ google_analytics: "UA-180935645-1"
 collections:
   courses:
     output: true
+  courses_de:
+    output: true
+    permalink: /de/courses/:path
 
 defaults:
   - scope:
       path: ""
       type: "courses"
+    values:
+      layout: "course"
+  - scope:
+      path: ""
+      type: "courses_de"
     values:
       layout: "course"
 

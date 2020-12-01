@@ -40,9 +40,11 @@
                 <a class="navbar-item" href="{{ '/about' | prepend: i18n_link_part | relative_url }}">{{ site.data.i18n[page.lang].pages.about.link }}</a>
 
                 {% if page.lang == "en" %}
-                <a  class="navbar-item" href="{{ site.data.i18n[page.lang].pages[page.i18n_id].url | prepend: 'de/' | relative_url }}"><img style="width: 22px;" src="{{ '/assets/img/flags/de.svg' | relative_url }}" alt="DE Flag"></a>
+                <a  class="navbar-item" href="{{ page.url | prepend: 'de' | relative_url }}"><img style="width: 22px;" src="{{ '/assets/img/flags/de.svg' | relative_url }}" alt="DE Flag"></a>
+                <!--                <a  class="navbar-item" href="{{ site.data.i18n[page.lang].pages[page.i18n_id].url | prepend: 'de/' | relative_url }}"><img style="width: 22px;" src="{{ '/assets/img/flags/de.svg' | relative_url }}" alt="DE Flag"></a>-->
                 {% elsif page.lang == "de" %}
-                <a  class="navbar-item" href="{{ site.data.i18n[page.lang].pages[page.i18n_id].url | prepend: '/' | relative_url }}"><img style="width: 22px;" src="{{ '/assets/img/flags/gb.svg' | relative_url }}" alt="GB Flag"></a>
+                <a  class="navbar-item" href="{{ page.url | replace_first: 'de/', '' | relative_url }}"><img style="width: 22px;" src="{{ '/assets/img/flags/gb.svg' | relative_url }}" alt="GB Flag"></a>
+                <!--                <a  class="navbar-item" href="{{ site.data.i18n[page.lang].pages[page.i18n_id].url | prepend: '/' | relative_url }}"><img style="width: 22px;" src="{{ '/assets/img/flags/gb.svg' | relative_url }}" alt="GB Flag"></a>-->
                 {% endif %}
 
             </div>
