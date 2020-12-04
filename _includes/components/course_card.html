@@ -1,3 +1,4 @@
+
 <div class="card is-fullheight">
     <div class="card-content">
         <div class="media">
@@ -14,7 +15,7 @@
     </div>
     <footer class="card-footer">
         <span class="card-footer-item">{{ course.price }} €</span>
-        <a class="card-footer-item" href="{{ include.url }}">{{ site.data.i18n[page.lang].global.details }}</a>
+        <a class="card-footer-item" href="{{ include.url | relative_url }}">{{ site.data.i18n[page.lang].global.details }}</a>
     </footer>
 </div>
 

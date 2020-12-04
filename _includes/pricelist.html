@@ -1,71 +1,9 @@
 <section class="section" id="prices">
     <div class="container">
         <div class="content">
-
-            <h3>{{ site.data.i18n[page.lang].pages.gwo.title }}</h3>
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th scope="col">{{ site.data.i18n[page.lang].global.course }}</th>
-                        <th scope="col">{{ site.data.i18n[page.lang].global.duration }}</th>
-                        <th scope="col">{{ site.data.i18n[page.lang].global.price }} ({{ site.data.i18n[page.lang].global.excl_vat }})</th>
-                    </tr>
-                </thead>
-                <tbody>
-                {% for course in site.courses %}
-                {% if course.body == "gwo" %}
-                    <tr>
-                        <td scope="row"><a href="{{course.url}}">{{ course.name }}</a></td>
-                        <td>{% if course.duration == 0.5 %}½{% else %}{{ course.duration }}{% endif %} {% if course.duration <= 1 %}{{ site.data.i18n[page.lang].global.day }}{% else %}{{ site.data.i18n[page.lang].global.days }}{% endif %}</td>
-                        <td>{{ course.price }} €</td>
-                    </tr>
-                {% endif %}
-                {% endfor %}
-                </tbody>
-            </table>
-
-            <h3>{{ site.data.i18n[page.lang].pages.irata.title }}</h3>
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th scope="col">{{ site.data.i18n[page.lang].global.course }}</th>
-                        <th scope="col">{{ site.data.i18n[page.lang].global.duration }}</th>
-                        <th scope="col">{{ site.data.i18n[page.lang].global.price }} ({{ site.data.i18n[page.lang].global.excl_vat }})</th>
-                    </tr>
-                </thead>
-                <tbody>
-                {% for course in site.courses %}
-                {% if course.body == "irata" %}
-                    <tr>
-                        <td scope="row"><a href="{{course.url}}">{{ course.name }}</a></td>
-                        <td>{% if course.duration == 0.5 %}½{% else %}{{ course.duration }}{% endif %} {% if course.duration <= 1 %}{{ site.data.i18n[page.lang].global.day }}{% else %}{{ site.data.i18n[page.lang].global.days }}{% endif %}</td>
-                        <td>{{ course.price }} €</td>
-                    </tr>
-                {% endif %}
-                {% endfor %}
-                </tbody>
-            </table>
-            <h3>{{ site.data.i18n[page.lang].pages.dguv.title }}</h3>
-            <table class="table">
-                <thead>
-                <tr>
-                    <th scope="col">{{ site.data.i18n[page.lang].global.course }}</th>
-                    <th scope="col">{{ site.data.i18n[page.lang].global.duration }}</th>
-                    <th scope="col">{{ site.data.i18n[page.lang].global.price }} ({{ site.data.i18n[page.lang].global.excl_vat }})</th>
-                </tr>
-                </thead>
-                <tbody>
-                {% for course in site.courses %}
-                {% if course.body == "dguv" %}
-                <tr>
-                    <td scope="row"><a href="{{course.url}}">{{ course.name }}</a></td>
-                    <td>{% if course.duration == 0.5 %}½{% else %}{{ course.duration }}{% endif %} {% if course.duration <= 1 %}{{ site.data.i18n[page.lang].global.day }}{% else %}{{ site.data.i18n[page.lang].global.days }}{% endif %}</td>
-                    <td>{{ course.price }} €</td>
-                </tr>
-                {% endif %}
-                {% endfor %}
-                </tbody>
-            </table>
+            {% include components/price_table.html body="gwo" %}
+            {% include components/price_table.html body="irata" %}
+            {% include components/price_table.html body="dguv" %}
         </div>
     </div>
 </section>
