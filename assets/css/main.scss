@@ -13,6 +13,8 @@ $fa-font-path: '/assets/fonts';
   //font-display: swap;
 }
 
+@import "bulma/sass/utilities/initial-variables.sass";
+$navbar-breakpoint: $widescreen;
 $family-primary: 'paralucent';
 $primary: #009de0;
 @import "bulma/bulma";
