@@ -1,5 +1,5 @@
 ---
-lang: en
+lang: de
 name: GWO BST Sea Survival
 code: GWO_BST_SS
 body: gwo
@@ -8,4 +8,4 @@ duration: 1
 months_valid: 24
 ---
 
-The aims of this BST Sea Survival course are, by theoretical and practical training to give the participants the basic knowledge and skills to act safely and take the correct preventive actions in all aspects of offshore operations from shore to installation vessel or WTG and vice versa, both during normal operation and in an emergency in an offshore wind energy environment.
+Ziel dieses BST Sea Survival-Kurses ist es, den Teilnehmern durch theoretisches und praktisches Training das Grundwissen und die Fähigkeiten zu vermitteln, um sicher zu handeln und die richtigen vorbeugenden Maßnahmen in allen Aspekten des Offshore-Betriebs von Land zu Installationsschiff oder WTG und umgekehrt zu ergreifen. sowohl während des normalen Betriebs als auch im Notfall in einer Offshore-Windenergieumgebung.

@@ -1,5 +1,5 @@
 ---
-lang: en
+lang: de
 name: GWO BST Working at Heights
 code: GWO_BST_WAH
 body: gwo
@@ -8,4 +8,4 @@ duration: 2
 months_valid: 24
 ---
 
-The aim of this module is to qualify the participants, through theoretical and practical training, to use basic personal protective equipment and perform safe work at heights and safe and comprehensive basic rescue from heights in a remote wind turbine environment.
+Ziel dieses Moduls ist es, die Teilnehmer durch theoretische und praktische Ausbildung in die Lage zu versetzen, grundlegende persönliche Schutzausrüstung zu verwenden und sichere Arbeiten in Höhen und eine sichere und umfassende grundlegende Rettung aus Höhen in einer abgelegenen Windkraftanlagenumgebung durchzuführen.

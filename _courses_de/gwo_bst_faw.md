@@ -1,5 +1,5 @@
 ---
-lang: en
+lang: de
 name: GWO BST Fire Awareness
 code: GWO_BST_FAW
 body: gwo
@@ -8,6 +8,6 @@ duration: 0.5
 months_valid: 24
 ---
 
-The aim of this course is to give the delegates the basic knowledge and skills through theoretical and practical training.
+Ziel dieses Kurses ist es, den Delegierten durch theoretische und praktische Ausbildung die Grundkenntnisse und -fähigkeiten zu vermitteln.
 
-Delegates should be able to prevent fires, make appropriate judgements when evaluating a fire, manage evacuation of personnel and ensure all are safely accounted for in the event of an unmanageable fire. If the incident is judged to be safe, the delegates should be able to efficiently extinguish an initial fire by using basic hand held firefighting equipment.
+Die Delegierten sollten in der Lage sein, Brände zu verhindern, bei der Bewertung eines Brandes angemessene Entscheidungen zu treffen, die Evakuierung des Personals zu verwalten und sicherzustellen, dass alle im Falle eines nicht beherrschbaren Brandes sicher berücksichtigt werden. Wenn der Vorfall als sicher eingestuft wird, sollten die Delegierten in der Lage sein, ein anfängliches Feuer mithilfe grundlegender handgehaltener Feuerlöschgeräte effizient zu löschen.
