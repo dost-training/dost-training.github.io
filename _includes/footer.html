@@ -53,6 +53,14 @@
         </div>
     </div>
     <div class="content has-text-centered mt-6">
+        <p>
+            Language:
+            {% if page.lang == "en" %}
+            English | <a href="{{ page.url | prepend: 'de' | relative_url }}">Deutsche</a>
+            {% elsif page.lang == "de" %}
+            <a  href="{{ page.url | replace_first: 'de/', '' | relative_url }}">English</a> | Deutsche
+            {% endif %}
+        </p>
         <p>{{ site.organisation }} {{ site.time | date: '%Y' }}</p>
     </div>
 </footer>
