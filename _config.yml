@@ -24,7 +24,7 @@ collections:
     output: true
   courses_de:
     output: true
-    permalink: /de/courses/:path
+    permalink: /de/courses/:path/
 
 defaults:
   - scope:
