@@ -13,6 +13,7 @@ global:
   days: Tage
   excl_vat: Excl. MwSt
   location: Ort
+  code: Code
 
 pages:
   home:

@@ -12,6 +12,7 @@ global:
   days: days
   excl_vat: Excl. VAT
   location: Location
+  code: Code
 
 pages:
   home:

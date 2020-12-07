@@ -26,19 +26,19 @@ layout: base
             <h2>{{ page.name }}</h2>
             <div class="columns">
                 <div class="column">
-                    <h3>Code</h3>
+                    <h3>{{ site.data.i18n[page.lang].global.code }}</h3>
                     <p>{{ page.code }}</p>
                 </div>
                 <div class="column">
-                    <h3>Price</h3>
+                    <h3>{{ site.data.i18n[page.lang].global.price }}</h3>
                     <p>{{ page.price }} €</p>
                 </div>
                 <div class="column">
-                    <h3>Duration</h3>
-                    <p>{{ page.duration }} {% if page.duration == 1 %}day{% else %}days{% endif %}</p>
+                    <h3>{{ site.data.i18n[page.lang].global.duration }}</h3>
+                    <p>{% if page.duration == 0.5 %}½{% else %}{{ page.duration }}{% endif %} {% if page.duration <= 1 %}{{ site.data.i18n[page.lang].global.day }}{% else %}{{ site.data.i18n[page.lang].global.days }}{% endif %}</p>
                 </div>
             </div>
-            <h3>Details</h3>
+            <h3>{{ site.data.i18n[page.lang].global.details }}</h3>
             {{ content }}
         </div>
     </div>

@@ -38,16 +38,8 @@ defaults:
     values:
       layout: "course"
 
-include:
-  - _pages
 exclude:
   - README.md
-
-# Multiple Languages Plugin
-languages: ["en", "de"]
-#exclude_from_localizations: ["CNAME", "google677addc9844b679c.html", "robots.txt", "assets"]
-
-
 
 # Build settings
 markdown: kramdown
@@ -55,6 +47,5 @@ permalink: pretty
 
 sass:
   style: compressed
-
 
 #host: localhost
