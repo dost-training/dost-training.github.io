@@ -4,6 +4,6 @@ lang: de
 i18n_id: terms
 ---
 
-# Terms & Conditions
+# Geschäftsbedingungen
 
-Our terms & conditions
+Unsere Allgemeinen Geschäftsbedingungen

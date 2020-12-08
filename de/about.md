@@ -4,10 +4,10 @@ lang: de
 i18n_id: about
 ---
 
-## History
+## Geschichte
 
-Dost have many years experience in wind energy and offshore industry
+Dost verfügt über langjährige Erfahrung in der Windenergie- und Offshore-Industrie
 
-## Facilities
+## Anlagen
 
-Our classroom and facility comply with all relevant training standards
+Unser Klassenzimmer und unsere Einrichtung erfüllen alle relevanten Schulungsstandards

@@ -4,14 +4,14 @@ lang: de
 i18n_id: privacy
 ---
 
-# Privacy Policy
+# Datenschutz-Bestimmungen
 
-We store data on our candidates in our cloud booking portal and training record databases.
+Wir speichern Daten zu unseren Kandidaten in unserem Cloud-Buchungsportal und in den Datenbanken für Schulungsunterlagen.
 
-Data includes name, contact details, invoices, records of your booked courses and training history
+Zu den Daten gehören Name, Kontaktdaten, Rechnungen, Aufzeichnungen Ihrer gebuchten Kurse und Schulungsverlauf
 
-The data we store is only what is necessary in accordance with GWO and IRATA requirements.
+Die Daten, die wir speichern, sind nur das, was gemäß den GWO- und IRATA-Anforderungen erforderlich ist.
 
-We do not share your data with 3rd parties other than GWO and IRATA.
+Wir geben Ihre Daten nicht an Dritte außer GWO und IRATA weiter.
 
-You may contact us for requests relating to GDPR at any time.
+Sie können uns jederzeit kontaktieren, wenn Sie Fragen zur DSGVO haben.

@@ -10,8 +10,8 @@ We cryptographically sign all printed certificates with our private keys.
 
 This signature is embedded with the certificates details in an URL / QRCode that can be scanned to check the certificates authenticity at any time.
 
-The verification URL page must be: <a href="https://training.dostgroup.de/verify">https://training.dostgroup.de/verify</a>
+The verification URL page must be: <https://training.dostgroup.de/verify>
 
-Our public keys used for verification are published below:
+We publish our public keys, used for verification, below:
 
 {% include public_keys_table.html %}
