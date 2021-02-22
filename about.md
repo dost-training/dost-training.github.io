@@ -8,7 +8,7 @@ We offer a selection of GWO, DGUV, and Rope Access training courses
 
 Training takes place at our facilities in Witten, Germany
 
-<figure class="image"><img style="max-width: 800px;" src="/assets/img/photos/tc1.jpg"></figure>
+<figure class="image mx-0" style="max-width: 800px;"><img src="/assets/img/photos/tc1.jpg"></figure>
 
 All of our courses are competitively priced
 

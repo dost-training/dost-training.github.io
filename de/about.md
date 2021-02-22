@@ -4,10 +4,16 @@ lang: de
 i18n_id: about
 ---
 
-## Geschichte
+Wir bieten eine Auswahl an GWO-, DGUV- und Rope Access-Schulungen an
 
-Dost verfügt über langjährige Erfahrung in der Windenergie- und Offshore-Industrie
+Die Schulung findet in unseren Einrichtungen in Witten statt
 
-## Anlagen
+<figure class="image mx-0" style="max-width: 800px;"><img src="/assets/img/photos/tc1.jpg"></figure>
 
-Unser Klassenzimmer und unsere Einrichtung erfüllen alle relevanten Schulungsstandards
+Alle unsere Kurse sind preisgünstig
+
+Nach Abschluss Ihres GWO-Schulungskurses wird Ihre Aufzeichnung auf WINDA hochgeladen
+
+Wir können digital signierte und online überprüfbare Zertifikate ausstellen
+
+Wenn Sie derzeit über ein FISAT-Zertifikat verfügen und zu IRATA konvertieren möchten, können wir Sie bei unseren Konvertierungskursen von FISAT zu IRATA unterstützen

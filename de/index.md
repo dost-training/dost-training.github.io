@@ -3,18 +3,13 @@ layout: home
 lang: de
 i18n_id: home
 ---
-
-## Öffnet bald
-
-Wir arbeiten derzeit intensiv an der Umrüstung unserer Geräte und Einrichtungen. Wir werden im Winter 2020 eröffnen.
-
 ## Herzlich willkommen
 
 Wir bieten eine Auswahl an GWO-, DGUV- und Rope Access-Schulungen an
 
 Die Schulung findet in unseren Einrichtungen in Witten statt
 
-<figure class="image"><img style="max-width: 800px;" src="/assets/img/photos/tc1.jpg"></figure>
+<figure class="image"><img src="/assets/img/photos/tc1.jpg" style="max-width: 800px;"></figure>
 
 Alle unsere Kurse sind preisgünstig
 
