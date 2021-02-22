@@ -4,10 +4,16 @@ lang: en
 i18n_id: about
 ---
 
-## History
+We offer a selection of GWO, DGUV, and Rope Access training courses
 
-Dost have many years experience in wind energy and offshore industry
+Training takes place at our facilities in Witten, Germany
 
-## Facilities
+<figure class="image"><img style="max-width: 800px;" src="/assets/img/photos/tc1.jpg"></figure>
 
-Our classroom and facility comply with all relevant training standards
+All of our courses are competitively priced
+
+After completing your GWO training course we will upload your record to WINDA
+
+We can issue digitally signed and online verifiable certificates
+
+If you currently hold a FISAT certificate and would like to convert to IRATA we can assist with our FISAT to IRATA conversion courses
