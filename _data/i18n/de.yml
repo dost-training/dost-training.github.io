@@ -39,9 +39,14 @@ pages:
   booking:
     url: booking
     link: Buchung
-    link_alt: Schulungskalender & Online buchen
+    link_alt: Online buchen
     title: Online-Buchungsportal
     subtitle: Stöbern und buchen Sie unsere bevorstehenden Schulungen
+  calendar:
+    url: calendar
+    link: Trainingskalender
+    title: Trainingskalender
+    subtitle: Durchsuchen Sie unseren Trainingsplan in unserem Kalender
   verification:
     url: verification
     link: Überprüfung

@@ -37,9 +37,14 @@ pages:
   booking:
     url: booking
     link: Booking
-    link_alt: Training Calendar & Book Online
+    link_alt: Book Online
     title: Online Booking Portal
     subtitle: Browse and book our upcoming training courses
+  calendar:
+    url: calendar
+    link: Training Calendar
+    title: Training Calendar
+    subtitle: Browse our training plan in our calendar
   verification:
     url: verification
     link: Verification
