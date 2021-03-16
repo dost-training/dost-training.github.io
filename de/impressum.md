@@ -6,25 +6,23 @@ i18n_id: impressum
 
 # Impressum
 ## Address
-Dost GmbH
+{{ site.corporate_name }}
 
-Wullener Feld 61
-
-D-58454 Witten Deutschland
+{{ site.corporate_address }}
 
 ## CEO
-Mehmet Sar
+{{ site.corporate_ceo }}
 
 ## Contact
-Telefone: +49 (0) 2302 28 23 61 0
+Telefone: {{ site.corporate_phone }}
 
-Telefax: +49 (0) 2302 28 23 61 23
+Fax: {{ site.corporate_fax }}
 
-E-mail: info@dostgroup.de
+E-mail: {{ site.corporate_email }}
 
 ## Registration
-HRB: 10550
+Handelsregisternummer: {{ site.corporate_registration }}
 
-Umsatzsteuer ID: DE242801578
+Gerichtsstand: {{ site.corporate_jurisdiction }}
 
-Gerichtsstand: Bochum
+USt-IdNr: {{ site.corporate_vat_no }}

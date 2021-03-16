@@ -3,18 +3,19 @@ layout: home
 lang: de
 i18n_id: home
 ---
-## Herzlich willkommen
 
-Wir bieten eine Auswahl an GWO-, DGUV- und Rope Access-Schulungen an
+## Willkommen
 
-Die Schulung findet in unseren Einrichtungen in Witten statt
+Wir bieten eine Auswahl an GWO, DGUV und Rope Access-Schulungen
 
-<figure class="image"><img src="/assets/img/photos/tc1.jpg" style="max-width: 800px;"></figure>
+Die Schulungen finden in unseren Räumlichkeiten in Witten, Deutschland statt
 
-Alle unsere Kurse sind preisgünstig
+<figure class="image"><img style="max-width: 800px;" src="/assets/img/photos/tc1.jpg"></figure>
 
-Nach Abschluss Ihres GWO-Schulungskurses wird Ihre Aufzeichnung auf WINDA hochgeladen
+Alle unsere Kurse sind preislich konkurrenzfähig
 
-Wir können digital signierte und online überprüfbare Zertifikate ausstellen
+Nach Abschluss Ihrer GWO-Schulung wird Ihre Aufzeichnung auf WINDA hochgeladen
 
-Wenn Sie derzeit über ein FISAT-Zertifikat verfügen und zu IRATA konvertieren möchten, können wir Sie bei unseren Konvertierungskursen von FISAT zu IRATA unterstützen
+Wir können digital signierte Zertifikate ausstellen, die online verifiziert werden können
+
+Wenn Sie derzeit ein FISAT-Zertifikat besitzen und zu IRATA konvertieren möchten, können wir Sie mit unseren FISAT-zu-IRATA-Konvertierungskursen unterstützen

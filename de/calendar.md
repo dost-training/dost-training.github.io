@@ -1,6 +1,6 @@
 ---
 layout: base
-lang: en
+lang: de
 i18n_id: calendar
 ---
 {% include hero.html %}

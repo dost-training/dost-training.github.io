@@ -1,5 +1,4 @@
 ---
-languages: ["en"]
 ---
 
 var courses = [{% for course in site.courses %}{

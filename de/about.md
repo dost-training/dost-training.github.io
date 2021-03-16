@@ -4,16 +4,11 @@ lang: de
 i18n_id: about
 ---
 
-Wir bieten eine Auswahl an GWO-, DGUV- und Rope Access-Schulungen an
+## Geschichte
 
-Die Schulung findet in unseren Einrichtungen in Witten statt
+Das {{ site.organisation }}-Schulungszentrum verfügt über langjährige Erfahrung in der Windenergie- und Offshore-Industrie
 
-<figure class="image mx-0" style="max-width: 800px;"><img src="/assets/img/photos/tc1.jpg"></figure>
+## Einrichtungen
 
-Alle unsere Kurse sind preisgünstig
+Unser Schulungsraum und unsere Schulungseinrichtung entsprechen allen relevanten Schulungsstandards
 
-Nach Abschluss Ihres GWO-Schulungskurses wird Ihre Aufzeichnung auf WINDA hochgeladen
-
-Wir können digital signierte und online überprüfbare Zertifikate ausstellen
-
-Wenn Sie derzeit über ein FISAT-Zertifikat verfügen und zu IRATA konvertieren möchten, können wir Sie bei unseren Konvertierungskursen von FISAT zu IRATA unterstützen

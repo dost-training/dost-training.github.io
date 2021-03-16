@@ -8,8 +8,8 @@
     <div class="container">
         <div class="navbar-brand">
             <a class="navbar-item" href="{{ '/' | prepend: i18n_link_part | relative_url }}">
-                <img src="{{ '/assets/img/dost-logo-bold-borderless.svg' | relative_url }}" alt="Logo">
-                <span id="navbar-logo-text">{{ site.organisation }}</span>
+                <img class="custom-navbar-logo-img" src="{{ '/assets/img/' | append: site.nav_logo | relative_url }}" alt="Logo">
+                <span class="custom-navbar-logo-text">{{ site.organisation }}</span>
             </a>
 
             <a role="button" class="navbar-burger">
@@ -33,7 +33,6 @@
                     </div>
                 </div>
                 <a class="navbar-item" href="{{ '/prices' | prepend: i18n_link_part | relative_url }}">{{ site.data.i18n[page.lang].pages.prices.link }}</a>
-                <a class="navbar-item" href="{{ '/calendar' | prepend: i18n_link_part | relative_url }}">{{ site.data.i18n[page.lang].pages.calendar.link }}</a>
                 <div class="navbar-item">
                     <a class="button is-primary" href="{{ '/booking' | prepend: i18n_link_part | relative_url }}">{{ site.data.i18n[page.lang].pages.booking.link_alt }}</a>
                 </div>
