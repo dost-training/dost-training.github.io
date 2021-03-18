@@ -56,9 +56,9 @@
         <p>
             Language:
             {% if page.lang == "en" %}
-            English | <a href="{{ page.url | prepend: 'de' | relative_url }}">Deutsche</a>
+            English | <a href="{{ page.url | prepend: 'de' | relative_url }}">Deutsch</a>
             {% elsif page.lang == "de" %}
-            <a  href="{{ page.url | replace_first: 'de/', '' | relative_url }}">English</a> | Deutsche
+            <a  href="{{ page.url | replace_first: 'de/', '' | relative_url }}">English</a> | Deutsch
             {% endif %}
         </p>
         <p>{{ site.organisation }} {{ site.time | date: '%Y' }}</p>

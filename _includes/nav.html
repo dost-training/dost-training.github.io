@@ -36,8 +36,8 @@
                 <div class="navbar-item">
                     <a class="button is-primary" href="{{ '/booking' | prepend: i18n_link_part | relative_url }}">{{ site.data.i18n[page.lang].pages.booking.link_alt }}</a>
                 </div>
-                <a class="navbar-item" href="{{ '/verification' | prepend: i18n_link_part | relative_url }}">{{ site.data.i18n[page.lang].pages.verification.link }}</a>
-                <a class="navbar-item" href="{{ '/about' | prepend: i18n_link_part | relative_url }}">{{ site.data.i18n[page.lang].pages.about.link }}</a>
+<!--                <a class="navbar-item" href="{{ '/verification' | prepend: i18n_link_part | relative_url }}">{{ site.data.i18n[page.lang].pages.verification.link }}</a>-->
+<!--                <a class="navbar-item" href="{{ '/about' | prepend: i18n_link_part | relative_url }}">{{ site.data.i18n[page.lang].pages.about.link }}</a>-->
 
                 {% if page.lang == "en" %}
                 <a  class="navbar-item" href="{{ page.url | prepend: 'de' | relative_url }}"><img style="width: 22px;" src="{{ '/assets/img/flags/de.svg' | relative_url }}" alt="DE Flag"></a>
