@@ -8,7 +8,7 @@ i18n_id: privacy
 
 Wir speichern Daten zu unseren Kandidaten in unserem Cloud-Buchungsportal und in den Datenbanken für Schulungsunterlagen.
 
-Zu den Daten gehören Name, Kontaktdaten, Rechnungen, Aufzeichnungen Ihrer gebuchten Kurse und Schulungsverlauf
+Zu den Daten gehören Name, Kontaktdaten, Rechnungen, Aufzeichnungen Ihrer gebuchten Kurse und Schulungsverlauf.
 
 Die Daten, die wir speichern, sind nur das, was gemäß den GWO- und IRATA-Anforderungen erforderlich ist.
 
