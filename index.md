@@ -1,21 +1,14 @@
 ---
-layout: home
-lang: en
-i18n_id: home
+layout: moved
 ---
-
-## Welcome
-
-We offer a selection of GWO, DGUV, and Rope Access training courses.
-
-Training takes place at our facilities in Witten, Germany.
-
-<figure class="image"><img style="max-width: 800px;" src="/assets/img/photos/tc1.jpg"></figure>
-
-All our courses are competitively priced.
-
-After completing your GWO training course your record will be uploaded to WINDA.
-
-We can issue digitally signed and online verifiable certificates.
-
-If you currently hold a FISAT certificate and would like to convert to IRATA we can assist with our FISAT to IRATA conversion courses.
+<section class="section">
+    <div class="container">
+        <div class="content has-text-centered">
+            <h1>We have moved!</h1>
+            <a href="https://www.the-safety.de"><img src="{{ '/assets/img/the-logo-256x160.svg' | relative_url }}" alt="THE Logo"></a>
+            <p class="is-size-4">We are now <i>T.H.E. Training Center Health & Safety Environment GmbH</i></p>
+            <p>Click below to to go to our new website</p>
+            <p><a href="https://www.the-safety.de">https://www.the-safety.de</a></p>
+        </div>
+    </div>
+</section>
